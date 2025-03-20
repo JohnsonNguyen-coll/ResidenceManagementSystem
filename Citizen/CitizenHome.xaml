@@ -1,0 +1,44 @@
+﻿<Window x:Class="Assignment_PRN.CitizenHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Citizen Home" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Background="DarkBlue" Height="50">
+                <TextBlock Text="Citizen Dashboard" Foreground="White" FontSize="20" FontWeight="Bold" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel DockPanel.Dock="Left" Width="200" Background="LightGray">
+                <Button Content="View Profile" Height="40" Margin="10" Click="ViewProfile_Click"/>
+                <Button Content="Edit Profile" Height="40" Margin="10" Click="EditProfile_Click"/>
+                <Button Content="Create Registration" Height="40" Margin="10" Click="CreateRegistration_Click"/>
+                <Button Content="Upload Documents" Height="40" Margin="10" Click="UploadDocuments_Click"/>
+                <Button Content="Track Requests" Height="40" Margin="10" Click="TrackRequests_Click"/>
+                <Button Content="Household Transfer" Height="40" Margin="10" Click="HouseholdTransfer_Click"/>
+                <Button Content="Household Separation" Height="40" Margin="10" Click="HouseholdSeparation_Click"/>
+                <Button Content="Notifications" Height="40" Margin="10" Click="Notifications_Click"/>
+                <Button Content="Logout" Height="40" Margin="10" Click="Logout_Click"/>
+            </StackPanel>
+
+            
+            <DockPanel Margin="10">
+               
+                <DataGrid x:Name="dataGridRequests" AutoGenerateColumns="False" Height="300" Margin="10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding RegistrationId}" Width="50"/>
+                        <DataGridTextColumn Header="Type" Binding="{Binding RegistrationType}" Width="150"/>
+                        <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="100"/>
+                        <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="100"/>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="120"/>
+                        <DataGridTextColumn Header="Comments" Binding="{Binding Comments}" Width="200"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Border Background="White" Margin="10">
+                    <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
+                </Border>
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</Window>

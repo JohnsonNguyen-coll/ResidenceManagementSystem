@@ -1,0 +1,22 @@
+﻿<Window x:Class="Assignment_PRN.TrackRequestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Track Request Status" Height="400" Width="600">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Track Request Status" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+
+            <DataGrid x:Name="dgRegistrations" AutoGenerateColumns="False" Height="250" Margin="0,10,0,10">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Type" Binding="{Binding RegistrationType}" Width="*"/>
+                    <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="*"/>
+                    <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="*"/>
+                    <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"/>
+                    <DataGridTextColumn Header="Comments" Binding="{Binding Comments}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button Content="Close" Click="CloseWindow_Click" Width="100" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

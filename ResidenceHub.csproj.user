@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Citizen\CitizenHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\ConfirmTransferWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\CreateRegistrationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\EditProfileWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\ProfileWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\SubmitHouseholdTransferWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\TrackRequestWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Citizen\UploadDocumentsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

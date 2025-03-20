@@ -1,0 +1,18 @@
+﻿<Window x:Class="Assignment_PRN.UploadDocumentsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Upload Documents" Height="250" Width="400">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Upload Documents" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+
+            <Button Content="Select File" Click="SelectFile_Click" Width="120" Margin="0,10,0,10"/>
+            <TextBlock x:Name="txtFileName" Text="No file selected" TextWrapping="Wrap" MaxWidth="300"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Save" Click="SaveFilePath_Click" Width="100" Margin="5"/>
+                <Button Content="Cancel" Click="CloseWindow_Click" Width="80" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

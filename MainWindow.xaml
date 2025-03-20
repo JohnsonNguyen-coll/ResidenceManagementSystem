@@ -1,0 +1,151 @@
+﻿<Window x:Class="ResidenceHub.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResidenceHub"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <!-- Tab Resident Management -->
+            <TabItem Header="Resident Management">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- Danh sách Residents và Households -->
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        
+                        <GroupBox Header="Residents" Margin="10">
+                            <DataGrid x:Name="ResidentsDataGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="ResidentsDataGrid_SelectionChanged">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID" Binding="{Binding UserId}"/>
+                                    <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}"/>
+                                    <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                                    <DataGridTextColumn Header="Role" Binding="{Binding Role}"/>
+                                    <DataGridTextColumn Header="Address" Binding="{Binding Address}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </GroupBox>
+                        
+                        <GroupBox Header="Households" Grid.Row="1" Margin="10">
+                            <DataGrid x:Name="HouseholdsDataGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="HouseholdsDataGrid_SelectionChanged">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID" Binding="{Binding HouseholdId}"/>
+                                    <DataGridTextColumn Header="Head ID" Binding="{Binding HeadOfHouseholdId}"/>
+                                    <DataGridTextColumn Header="Address" Binding="{Binding Address}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </GroupBox>
+                    </Grid>
+
+                    <!-- Form CRUD -->
+                    <StackPanel Grid.Column="1" Margin="10">
+                        <GroupBox Header="Manage Resident">
+                            <StackPanel>
+                                <TextBox x:Name="FullNameTextBox" Margin="0,5" Text="Full Name"/>
+                                <TextBox x:Name="EmailTextBox" Margin="0,5" Text="Email"/>
+                                <TextBox x:Name="PasswordTextBox" Margin="0,5" Text="Password"/>
+                                <ComboBox x:Name="RoleComboBox" Margin="0,5" SelectedIndex="0">
+                                    <ComboBoxItem Content="Citizen"/>
+                                    <ComboBoxItem Content="AreaLeader"/>
+                                    <ComboBoxItem Content="Police"/>
+                                </ComboBox>
+                                <TextBox x:Name="AddressTextBox" Margin="0,5" Text="Address"/>
+                                <Button Content="Add Resident" Click="AddResident_Click" Margin="0,10,0,5"/>
+                                <Button Content="Update Resident" Click="UpdateResident_Click" Margin="0,5"/>
+                                <Button Content="Delete Resident" Click="DeleteResident_Click" Margin="0,5"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Manage Household" Margin="0,10,0,0">
+                            <StackPanel>
+                                <TextBox x:Name="HeadIdTextBox" Margin="0,5" Text="Head ID"/>
+                                <TextBox x:Name="HouseholdAddressTextBox" Margin="0,5" Text="Address"/>
+                                <Button Content="Add Household" Click="AddHousehold_Click" Margin="0,10,0,5"/>
+                                <Button Content="Update Household" Click="UpdateHousehold_Click" Margin="0,5"/>
+                                <Button Content="Delete Household" Click="DeleteHousehold_Click" Margin="0,5"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab Request Approval -->
+            <TabItem Header="Request Approval">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- Danh sách Registrations -->
+                    <GroupBox Header="Registration Requests" Margin="10">
+                        <DataGrid x:Name="RegistrationsDataGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="RegistrationsDataGrid_SelectionChanged">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding RegistrationId}"/>
+                                <DataGridTextColumn Header="User ID" Binding="{Binding UserId}"/>
+                                <DataGridTextColumn Header="Type" Binding="{Binding RegistrationType}"/>
+                                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}"/>
+                                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </GroupBox>
+
+                    <!-- Form Approve/Reject -->
+                    <StackPanel Grid.Column="1" Margin="10">
+                        <GroupBox Header="Approve/Reject Request">
+                            <StackPanel>
+                                <TextBox x:Name="CommentsTextBox" Margin="0,5" Text="Comments"/>
+                                <Button Content="Approve" Click="ApproveRequest_Click" Margin="0,10,0,5"/>
+                                <Button Content="Reject" Click="RejectRequest_Click" Margin="0,5"/>
+                            </StackPanel>
+                        </GroupBox>
+                        <GroupBox Header="Household Transfer/Separation" Margin="0,10,0,0">
+                            <StackPanel>
+                                <Button Content="Approve Transfer" Click="ApproveTransfer_Click" Margin="0,5"/>
+                                <Button Content="Approve Separation" Click="ApproveSeparation_Click" Margin="0,5"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab Reports -->
+            <TabItem Header="Reports">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Resident Report" Click="GenerateResidentReport_Click" Margin="0,0,10,0"/>
+                        <Button Content="Household Report" Click="GenerateHouseholdReport_Click" Margin="0,0,10,0"/>
+                        <Button Content="Export to PDF" Click="ExportToPdf_Click"/>
+                    </StackPanel>
+                    
+                    <TextBox x:Name="ReportTextBox" Grid.Row="1" Margin="0,10,0,0" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab Notifications -->
+            <TabItem Header="Notifications">
+                <Grid Margin="10">
+                    <StackPanel>
+                        <TextBox x:Name="NotificationMessageTextBox" Margin="0,0,0,10" Text="Enter message here"/>
+                        <ComboBox x:Name="NotificationUserComboBox" Margin="0,0,0,10" DisplayMemberPath="FullName"/>
+                        <Button Content="Send Notification" Click="SendNotification_Click" Width="100" HorizontalAlignment="Left"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
