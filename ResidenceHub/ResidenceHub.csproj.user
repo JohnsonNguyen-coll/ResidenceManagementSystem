@@ -7,7 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="GUI\Common\RegisterAccountView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="GUI\Common\RegisterAccountView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

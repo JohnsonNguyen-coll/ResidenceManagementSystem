@@ -1,0 +1,53 @@
+﻿<Window x:Class="ResidenceHub.GUI.AreaLeader.SendNotificationDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Send Notification" Height="300" Width="450"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="Send Notification" FontSize="18" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <!-- Recipient -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,15">
+            <TextBlock Text="To:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+            <TextBlock x:Name="lblRecipient" Text="John Doe - john@example.com" Margin="0,0,0,0"/>
+        </StackPanel>
+
+        <!-- Message -->
+        <StackPanel Grid.Row="2">
+            <TextBlock Text="Message:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtMessage" Height="100" TextWrapping="Wrap" AcceptsReturn="True" Padding="5"/>
+        </StackPanel>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,15,0,0">
+            <Button x:Name="btnSend" Content="Send" Width="80" Height="30" 
+                    Background="#1565C0" Foreground="White" BorderThickness="0" Margin="0,0,10,0" Click="btnSend_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button x:Name="btnCancel" Content="Cancel" Width="80" Height="30" 
+                    Background="#E0E0E0" BorderThickness="0" Click="btnCancel_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

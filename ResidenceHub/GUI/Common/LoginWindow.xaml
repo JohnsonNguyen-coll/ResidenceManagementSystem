@@ -1,0 +1,51 @@
+﻿<Window x:Class="ResidenceHub.GUI.Common.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Residence Hub - Login" Height="450" Width="600" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#E0F7FA" Offset="0"/>
+                <GradientStop Color="#80DEEA" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border CornerRadius="15" Background="White" Margin="80,10,80,10" Padding="30">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="25" ShadowDepth="8" Opacity="0.2"/>
+            </Border.Effect>
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="RESIDENCE HUB" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,30" Foreground="#00796B"/>
+                <TextBlock Text="Email" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                <TextBox x:Name="txtEmail" Height="35" Padding="8" Margin="0,0,0,20" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+                <TextBlock Text="Password" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                <PasswordBox x:Name="txtPassword" Height="35" Padding="8" Margin="0,0,0,25" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+                <Button x:Name="btnLogin" Content="LOGIN" Height="45" Background="#00796B" Foreground="White" 
+                        BorderThickness="0" FontWeight="Bold" Click="btnLogin_Click" HorizontalAlignment="Stretch">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Padding" Value="10,0"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#004D40"/>
+                                    <Setter Property="Cursor" Value="Hand"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <TextBlock x:Name="lblError" Foreground="Red" HorizontalAlignment="Center" Margin="20,15,20,0" FontSize="14"/>
+
+                <!-- Register Account Link -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <TextBlock Text="Don't have an account? " Foreground="#424242"/>
+                    <TextBlock x:Name="txtRegister" Text="Register Account" Foreground="#00796B" FontWeight="SemiBold" MouseDown="txtRegister_MouseDown" Cursor="Hand"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

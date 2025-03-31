@@ -1,0 +1,84 @@
+﻿<Window x:Class="ResidenceHub.GUI.Common.RegisterAccountView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Residence Hub - Register Account" Height="580" Width="600" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#E0F7FA" Offset="0"/>
+                <GradientStop Color="#80DEEA" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Border CornerRadius="15" Background="White" Margin="60,40,60,40" Padding="30">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="25" ShadowDepth="8" Opacity="0.2"/>
+            </Border.Effect>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock Text="CREATE ACCOUNT" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,25" Foreground="#00796B"/>
+
+                    <!-- Full Name -->
+                    <TextBlock Text="Full Name" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                    <TextBox x:Name="txtFullName" Height="35" Padding="8" Margin="0,0,0,15" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+
+                    <!-- Email -->
+                    <TextBlock Text="Email Address" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                    <TextBox x:Name="txtEmail" Height="35" Padding="8" Margin="0,0,0,15" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+
+                    <!-- Password -->
+                    <TextBlock Text="Password" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                    <PasswordBox x:Name="txtPassword" Height="35" Padding="8" Margin="0,0,0,15" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+
+                    <!-- Confirm Password -->
+                    <TextBlock Text="Confirm Password" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                    <PasswordBox x:Name="txtConfirmPassword" Height="35" Padding="8" Margin="0,0,0,15" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+
+                    <!-- Address -->
+                    <TextBlock Text="Address" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                    <TextBox x:Name="txtAddress" Height="35" Padding="8" Margin="0,0,0,15" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}" />
+
+                    <!-- Role Selection -->
+                    <TextBlock Text="Account Type" Margin="0,0,0,5" FontWeight="SemiBold" Foreground="#00796B"/>
+                    <ComboBox x:Name="cmbRole" Height="35" Padding="8" Margin="0,0,0,15" BorderBrush="#00796B" BorderThickness="1" FocusVisualStyle="{x:Null}">
+                        <ComboBoxItem Content="Citizen" IsSelected="True"/>
+                        <ComboBoxItem Content="AreaLeader"/>
+                        <ComboBoxItem Content="Police"/>
+                        <ComboBoxItem Content="Admin"/>
+                    </ComboBox>
+
+                    <!-- Terms and Conditions -->
+                    <CheckBox x:Name="chkTerms" Content="I agree to the terms and conditions" Margin="0,5,0,20" Foreground="#00796B"/>
+
+                    <!-- Registration Button -->
+                    <Button x:Name="btnRegister" Content="REGISTER" Height="45" Background="#00796B" Foreground="White" 
+                            BorderThickness="0" FontWeight="Bold" Click="btnRegister_Click" HorizontalAlignment="Stretch">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Padding" Value="10,0"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#004D40"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+                    <!-- Error Message -->
+                    <TextBlock x:Name="lblError" Foreground="Red" HorizontalAlignment="Center" Margin="20,15,20,0" FontSize="14" TextWrapping="Wrap"/>
+
+                    <!-- Login Link -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                        <TextBlock Text="Already have an account? " Foreground="#424242"/>
+                        <TextBlock x:Name="txtLoginLink" Text="Login" Foreground="#00796B" FontWeight="SemiBold" MouseDown="txtLoginLink_MouseDown" Cursor="Hand"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Window>

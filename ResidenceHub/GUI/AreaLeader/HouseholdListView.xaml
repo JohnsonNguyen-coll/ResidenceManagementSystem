@@ -1,0 +1,96 @@
+﻿<Page x:Class="ResidenceHub.GUI.AreaLeader.HouseholdListView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Household List">
+
+    <Grid Background="White" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="Household List" FontSize="24" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <!-- Search and Filter -->
+        <Grid Grid.Row="1" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,15,0">
+                <TextBlock Text="Area:" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+                <TextBlock x:Name="lblArea" Text="Your Managed Area" VerticalAlignment="Center" FontWeight="Bold" Foreground="#1565C0"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="0,0,15,0">
+                <TextBlock Text="Search:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <TextBox x:Name="txtSearch" Width="200" Height="30" Padding="5" VerticalContentAlignment="Center"/>
+            </StackPanel>
+
+            <Button Grid.Column="3" x:Name="btnSearch" Content="Search" Width="80" Height="30" 
+                    Background="#1565C0" Foreground="White" BorderThickness="0" Click="btnSearch_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+
+        <!-- Households Table -->
+        <DataGrid x:Name="dgHouseholds" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" 
+                  Margin="0,0,0,15" SelectionMode="Single" SelectionChanged="dgHouseholds_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding HouseholdId}" Width="50"/>
+                <DataGridTextColumn Header="Head of Household" Binding="{Binding HeadOfHouseholdName}" Width="150"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="*"/>
+                <DataGridTextColumn Header="Created Date" Binding="{Binding CreatedDate}" Width="120"/>
+                <DataGridTextColumn Header="Members Count" Binding="{Binding MembersCount}" Width="100"/>
+                <DataGridTemplateColumn Header="Actions" Width="120">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="View Details" Tag="{Binding HouseholdId}" Padding="5,2"
+                                    Click="btnViewDetails_Click" Background="#1565C0" Foreground="White" BorderThickness="0">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="2"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Status and Actions -->
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" x:Name="lblStatus" Text="Displaying 0 households" VerticalAlignment="Center"/>
+
+            <Button Grid.Column="2" x:Name="btnRefresh" Content="Refresh" Width="80" Height="30" 
+                    Background="#E0E0E0" BorderThickness="0" Click="btnRefresh_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+    </Grid>
+</Page>

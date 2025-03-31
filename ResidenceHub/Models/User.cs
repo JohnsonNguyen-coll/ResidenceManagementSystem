@@ -28,4 +28,8 @@ public partial class User
     public virtual ICollection<Registration> RegistrationApprovedByNavigations { get; set; } = new List<Registration>();
 
     public virtual ICollection<Registration> RegistrationUsers { get; set; } = new List<Registration>();
+
+    public byte[]? CitizenIdImage { get; set; }
 }
+
+

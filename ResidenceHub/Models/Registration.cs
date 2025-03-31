@@ -24,4 +24,10 @@ public partial class Registration
     public virtual User? ApprovedByNavigation { get; set; }
 
     public virtual User? User { get; set; }
+
+    public string? FileName { get; set; }
+    public byte[]? FileData { get; set; }
+    public byte[]? CitizenIdImage { get; set; } // Thêm trường ảnh
 }
+
+

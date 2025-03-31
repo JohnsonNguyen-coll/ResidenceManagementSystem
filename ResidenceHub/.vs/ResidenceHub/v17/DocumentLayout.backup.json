@@ -1,61 +1,371 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.NET\\ResidenceHub\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\usermanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\usermanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\usermanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\usermanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\common\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\common\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\bll\\householdbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:bll\\householdbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\bll\\householdmemberbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:bll\\householdmemberbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\dal\\householddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:dal\\householddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\requestapprovalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\requestapprovalview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\requestapprovalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\requestapprovalview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\edithouseholddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\edithouseholddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\edithouseholddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\edithouseholddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\addhouseholddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\addhouseholddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\addhouseholddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\addhouseholddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\addresidentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\addresidentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\addresidentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\addresidentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\householdmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\householdmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\householdmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\householdmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\citizen\\householdtransferview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\citizen\\householdtransferview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\citizen\\householdtransferview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\citizen\\householdtransferview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\common\\registeraccountview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\common\\registeraccountview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\common\\registeraccountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\common\\registeraccountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\common\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\common\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\householddetailsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\householddetailsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\models\\asmprncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\asmprncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\dal\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:dal\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\householddetailsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\householddetailsdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\householdlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\householdlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\admindashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\admindashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\admindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\admindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\bll\\notificationbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:bll\\notificationbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\bll\\logbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:bll\\logbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\adduserdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\adduserdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\systemlogsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\systemlogsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\configurationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\configurationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\adduserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\adduserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\dal\\householdmemberdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:dal\\householdmemberdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\citizen\\registrationrequestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\citizen\\registrationrequestview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\citizen\\registrationrequestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\citizen\\registrationrequestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\residencehub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:residencehub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\policedashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\policedashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\requestverificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\requestverificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\requestverificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\requestverificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\reportsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\bll\\registrationbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:bll\\registrationbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\arealeaderdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\arealeaderdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\models\\householdmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\householdmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\admin\\configurationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\admin\\configurationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\notificationsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\notificationsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\residentmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\residentmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\policedashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\policedashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\notificationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\notificationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\police\\residentmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\police\\residentmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\citizen\\citizendashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\citizen\\citizendashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\citizen\\citizendashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\citizen\\citizendashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\approvalcommentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\approvalcommentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\sendnotificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\sendnotificationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\residentlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\residentlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\arealeaderdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\arealeaderdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\householdlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\householdlistview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\sendnotificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\sendnotificationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\sendnotificationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\sendnotificationdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\residentlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\residentlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\gui\\arealeader\\householddetailsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:gui\\arealeader\\householddetailsdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\models\\household.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\household.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ManageResidentsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Police\\ManageResidentsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|c:\\users\\dell\\residencemanagementsystem\\residencehub\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\householddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:householddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ReportsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Police\\ReportsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ApproveRequestsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Police\\ApproveRequestsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ManageHouseholdsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Police\\ManageHouseholdsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\models\\householdmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\householdmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\PoliceDashboardViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Police\\PoliceDashboardViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\NotificationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Citizen\\NotificationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\registrationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:registrationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\RegistrationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Citizen\\RegistrationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\models\\household.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\household.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\PersonalInforViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Citizen\\PersonalInforViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\CitizenDashboardViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Citizen\\CitizenDashboardViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\models\\asmprncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\asmprncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\RequestsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\AreaLeader\\RequestsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|d:\\.net\\residencehub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8969CB5-AAAD-44C1-9F27-E62ABAE4DAE7}|ResidenceHub.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\HouseholdsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\AreaLeader\\HouseholdsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\ResidentsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\AreaLeader\\ResidentsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\LeaderDashboardViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\AreaLeader\\LeaderDashboardViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Base\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Base\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Base\\ViewModelBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\Base\\ViewModelBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,7 +375,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -116,65 +426,605 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\AssemblyInfo.cs",
-              "RelativeToolTip": "AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:44:35.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "XamlReader.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
-              "ToolTip": "C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
-              "ViewState": "AgIAAE4DAAAAAAAAAAAkwGADAABFAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:40:33.747Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-18T04:48:15.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T04:48:12.842Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HouseholdBLL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\HouseholdBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\HouseholdBLL.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\HouseholdBLL.cs",
+              "RelativeToolTip": "BLL\\HouseholdBLL.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwE8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T23:20:41.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Common\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\Common\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAEwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T22:49:04.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\UserBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\UserBLL.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\UserBLL.cs",
+              "RelativeToolTip": "BLL\\UserBLL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:15:33.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\UserManagementView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Admin\\UserManagementView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\UserManagementView.xaml",
+              "RelativeToolTip": "GUI\\Admin\\UserManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T05:56:00.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\UserManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin\\UserManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\UserManagementView.xaml.cs",
+              "RelativeToolTip": "GUI\\Admin\\UserManagementView.xaml.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAASwLcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:56:06.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HouseholdMemberBLL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\HouseholdMemberBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\HouseholdMemberBLL.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\HouseholdMemberBLL.cs",
+              "RelativeToolTip": "BLL\\HouseholdMemberBLL.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAcwLcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:07:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HouseholdDAO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\DAL\\HouseholdDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\HouseholdDAO.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\DAL\\HouseholdDAO.cs",
+              "RelativeToolTip": "DAL\\HouseholdDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T05:00:38.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddHouseholdDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddHouseholdDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\AddHouseholdDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddHouseholdDialog.xaml",
+              "RelativeToolTip": "GUI\\Police\\AddHouseholdDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T12:49:46.439Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RequestApprovalView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\RequestApprovalView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\RequestApprovalView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\RequestApprovalView.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\RequestApprovalView.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowEsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T01:33:44.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestApprovalView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\RequestApprovalView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\RequestApprovalView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\RequestApprovalView.xaml",
+              "RelativeToolTip": "GUI\\Police\\RequestApprovalView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T01:33:41.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditHouseholdDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\EditHouseholdDialog.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\EditHouseholdDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\EditHouseholdDialog.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\EditHouseholdDialog.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:45:29.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditHouseholdDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\EditHouseholdDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\EditHouseholdDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\EditHouseholdDialog.xaml",
+              "RelativeToolTip": "GUI\\Police\\EditHouseholdDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-29T04:45:24.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddHouseholdDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddHouseholdDialog.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\AddHouseholdDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddHouseholdDialog.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\AddHouseholdDialog.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T05:02:43.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T05:11:41.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddResidentDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddResidentDialog.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\AddResidentDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddResidentDialog.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\AddResidentDialog.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAUwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T05:07:49.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddResidentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddResidentDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\AddResidentDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\AddResidentDialog.xaml",
+              "RelativeToolTip": "GUI\\Police\\AddResidentDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-29T05:07:46.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HouseholdManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\HouseholdManagementView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\HouseholdManagementView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\HouseholdManagementView.xaml",
+              "RelativeToolTip": "GUI\\Police\\HouseholdManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T01:31:02.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HouseholdManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\HouseholdManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\HouseholdManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\HouseholdManagementView.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\HouseholdManagementView.xaml.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAIwN8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T01:31:09.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterAccountView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\RegisterAccountView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Common\\RegisterAccountView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\RegisterAccountView.xaml.cs",
+              "RelativeToolTip": "GUI\\Common\\RegisterAccountView.xaml.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAowI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T22:45:12.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HouseholdTransferView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\HouseholdTransferView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Citizen\\HouseholdTransferView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\HouseholdTransferView.xaml.cs",
+              "RelativeToolTip": "GUI\\Citizen\\HouseholdTransferView.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:48:45.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterAccountView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\RegisterAccountView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Common\\RegisterAccountView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\RegisterAccountView.xaml",
+              "RelativeToolTip": "GUI\\Common\\RegisterAccountView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T22:44:45.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\Common\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Common\\LoginWindow.xaml",
+              "RelativeToolTip": "GUI\\Common\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T12:49:03.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HouseholdTransferView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\HouseholdTransferView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Citizen\\HouseholdTransferView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\HouseholdTransferView.xaml",
+              "RelativeToolTip": "GUI\\Citizen\\HouseholdTransferView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T22:53:26.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HouseholdDetailsDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\HouseholdDetailsDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\HouseholdDetailsDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\HouseholdDetailsDialog.xaml",
+              "RelativeToolTip": "GUI\\Police\\HouseholdDetailsDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-29T04:45:16.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HouseholdListView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdListView.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\HouseholdListView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdListView.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\HouseholdListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T00:11:00.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HouseholdDetailsDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdDetailsDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\HouseholdDetailsDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdDetailsDialog.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\HouseholdDetailsDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T06:00:30.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AdminDashboard.xaml",
+              "RelativeDocumentMoniker": "GUI\\Admin\\AdminDashboard.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AdminDashboard.xaml",
+              "RelativeToolTip": "GUI\\Admin\\AdminDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T23:27:33.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\DAL\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\UserDAO.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\DAL\\UserDAO.cs",
+              "RelativeToolTip": "DAL\\UserDAO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:25:29.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AsmPrnContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\AsmPrnContext.cs",
+              "RelativeDocumentMoniker": "Models\\AsmPrnContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\AsmPrnContext.cs",
+              "RelativeToolTip": "Models\\AsmPrnContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAxwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T01:14:38.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T01:15:54.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AdminDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin\\AdminDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AdminDashboard.xaml.cs",
+              "RelativeToolTip": "GUI\\Admin\\AdminDashboard.xaml.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:56:12.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NotificationBLL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\NotificationBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NotificationBLL.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\NotificationBLL.cs",
+              "RelativeToolTip": "BLL\\NotificationBLL.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAYwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:07:49.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LogBLL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\LogBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\LogBLL.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\LogBLL.cs",
+              "RelativeToolTip": "BLL\\LogBLL.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAApwGoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:07:36.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddUserDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AddUserDialog.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin\\AddUserDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AddUserDialog.xaml.cs",
+              "RelativeToolTip": "GUI\\Admin\\AddUserDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T02:06:03.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddUserDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AddUserDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\Admin\\AddUserDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\AddUserDialog.xaml",
+              "RelativeToolTip": "GUI\\Admin\\AddUserDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T02:05:59.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ConfigurationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\ConfigurationView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin\\ConfigurationView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\ConfigurationView.xaml.cs",
+              "RelativeToolTip": "GUI\\Admin\\ConfigurationView.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:46:22.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SystemLogsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\SystemLogsView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Admin\\SystemLogsView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\SystemLogsView.xaml.cs",
+              "RelativeToolTip": "GUI\\Admin\\SystemLogsView.xaml.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAQwIoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:47:05.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegistrationRequestView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\RegistrationRequestView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Citizen\\RegistrationRequestView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\RegistrationRequestView.xaml.cs",
+              "RelativeToolTip": "GUI\\Citizen\\RegistrationRequestView.xaml.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAYwAoBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:19:18.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HouseholdMemberDAO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\DAL\\HouseholdMemberDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\HouseholdMemberDAO.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\DAL\\HouseholdMemberDAO.cs",
+              "RelativeToolTip": "DAL\\HouseholdMemberDAO.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwBYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:57:14.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegistrationRequestView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\RegistrationRequestView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Citizen\\RegistrationRequestView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\RegistrationRequestView.xaml",
+              "RelativeToolTip": "GUI\\Citizen\\RegistrationRequestView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T16:18:48.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ResidenceHub.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ResidenceHub.csproj",
+              "RelativeDocumentMoniker": "ResidenceHub.csproj",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ResidenceHub.csproj",
+              "RelativeToolTip": "ResidenceHub.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-22T13:13:18.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PoliceDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\PoliceDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\PoliceDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\PoliceDashboard.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\PoliceDashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T23:00:41.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RequestVerificationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\RequestVerificationView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\RequestVerificationView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\RequestVerificationView.xaml.cs",
+              "RelativeToolTip": "GUI\\AreaLeader\\RequestVerificationView.xaml.cs",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAowK8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:44:05.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RequestVerificationView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\RequestVerificationView.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\RequestVerificationView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\RequestVerificationView.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\RequestVerificationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T07:44:49.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\Registration.cs",
+              "RelativeToolTip": "Models\\Registration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T22:40:06.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ReportsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ReportsView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\ReportsView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ReportsView.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\ReportsView.xaml.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAkwDYBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T01:50:40.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ReportsView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ReportsView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\ReportsView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ReportsView.xaml",
+              "RelativeToolTip": "GUI\\Police\\ReportsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T23:14:14.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T02:22:59.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AreaLeaderDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\AreaLeaderDashboard.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\AreaLeaderDashboard.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\AreaLeaderDashboard.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\AreaLeaderDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T07:13:13.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegistrationBLL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\RegistrationBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\RegistrationBLL.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\BLL\\RegistrationBLL.cs",
+              "RelativeToolTip": "BLL\\RegistrationBLL.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAA3wPMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T23:08:33.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "HouseholdMember.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\Models\\HouseholdMember.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\HouseholdMember.cs",
               "RelativeDocumentMoniker": "Models\\HouseholdMember.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\Models\\HouseholdMember.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\HouseholdMember.cs",
               "RelativeToolTip": "Models\\HouseholdMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -182,71 +1032,218 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HouseholdDAO.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\HouseholdDAO.cs",
-              "RelativeDocumentMoniker": "HouseholdDAO.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\HouseholdDAO.cs",
-              "RelativeToolTip": "HouseholdDAO.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:55:25.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegistrationDAO.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\RegistrationDAO.cs",
-              "RelativeDocumentMoniker": "RegistrationDAO.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\RegistrationDAO.cs",
-              "RelativeToolTip": "RegistrationDAO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:38:39.063Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\App.xaml",
-              "RelativeToolTip": "App.xaml",
+              "DocumentIndex": 51,
+              "Title": "ConfigurationView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\ConfigurationView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Admin\\ConfigurationView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Admin\\ConfigurationView.xaml",
+              "RelativeToolTip": "GUI\\Admin\\ConfigurationView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T02:22:59.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T06:00:09.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 53,
+              "Title": "ResidentManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ResidentManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\ResidentManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ResidentManagementView.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\ResidentManagementView.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T02:23:07.891Z"
+              "WhenOpened": "2025-03-24T01:30:55.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Log.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\Models\\Log.cs",
-              "RelativeDocumentMoniker": "Models\\Log.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\Models\\Log.cs",
-              "RelativeToolTip": "Models\\Log.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 52,
+              "Title": "NotificationsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\NotificationsView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Police\\NotificationsView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\NotificationsView.xaml.cs",
+              "RelativeToolTip": "GUI\\Police\\NotificationsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:15:37.839Z"
+              "WhenOpened": "2025-03-24T01:31:19.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 54,
+              "Title": "PoliceDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\PoliceDashboard.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\PoliceDashboard.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\PoliceDashboard.xaml",
+              "RelativeToolTip": "GUI\\Police\\PoliceDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T22:58:17.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "NotificationsView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\NotificationsView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\NotificationsView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\NotificationsView.xaml",
+              "RelativeToolTip": "GUI\\Police\\NotificationsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T01:31:14.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ResidentManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ResidentManagementView.xaml",
+              "RelativeDocumentMoniker": "GUI\\Police\\ResidentManagementView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Police\\ResidentManagementView.xaml",
+              "RelativeToolTip": "GUI\\Police\\ResidentManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T01:30:47.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CitizenDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\CitizenDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Citizen\\CitizenDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\CitizenDashboard.xaml.cs",
+              "RelativeToolTip": "GUI\\Citizen\\CitizenDashboard.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T01:29:46.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CitizenDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\CitizenDashboard.xaml",
+              "RelativeDocumentMoniker": "GUI\\Citizen\\CitizenDashboard.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\Citizen\\CitizenDashboard.xaml",
+              "RelativeToolTip": "GUI\\Citizen\\CitizenDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T22:53:30.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ApprovalCommentDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\ApprovalCommentDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\ApprovalCommentDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\ApprovalCommentDialog.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\ApprovalCommentDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-24T01:24:44.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SendNotificationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\SendNotificationView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\SendNotificationView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\SendNotificationView.xaml.cs",
+              "RelativeToolTip": "GUI\\AreaLeader\\SendNotificationView.xaml.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAowLkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T06:52:34.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ResidentListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\ResidentListView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\ResidentListView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\ResidentListView.xaml.cs",
+              "RelativeToolTip": "GUI\\AreaLeader\\ResidentListView.xaml.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowK0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T07:13:01.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOgSAAAAAAAAAAAAwPkSAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-24T00:26:53.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AreaLeaderDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\AreaLeaderDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\AreaLeaderDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\AreaLeaderDashboard.xaml.cs",
+              "RelativeToolTip": "GUI\\AreaLeader\\AreaLeaderDashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:50:58.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "HouseholdListView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdListView.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\HouseholdListView.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdListView.xaml.cs",
+              "RelativeToolTip": "GUI\\AreaLeader\\HouseholdListView.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowHcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T06:01:26.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "SendNotificationView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\SendNotificationView.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\SendNotificationView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\SendNotificationView.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\SendNotificationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T06:59:54.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "SendNotificationDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\SendNotificationDialog.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\SendNotificationDialog.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\SendNotificationDialog.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\SendNotificationDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T06:59:52.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ResidentListView.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\ResidentListView.xaml",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\ResidentListView.xaml",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\ResidentListView.xaml",
+              "RelativeToolTip": "GUI\\AreaLeader\\ResidentListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-23T07:12:56.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "HouseholdDetailsDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdDetailsDialog.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\AreaLeader\\HouseholdDetailsDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\GUI\\AreaLeader\\HouseholdDetailsDialog.xaml.cs",
+              "RelativeToolTip": "GUI\\AreaLeader\\HouseholdDetailsDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T06:01:56.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
               "Title": "Household.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\Models\\Household.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\Household.cs",
               "RelativeDocumentMoniker": "Models\\Household.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\Models\\Household.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\Household.cs",
               "RelativeToolTip": "Models\\Household.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAuwAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -254,39 +1251,268 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 69,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "Models\\Log.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\Models\\Log.cs",
+              "RelativeToolTip": "Models\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T01:15:37.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-19T01:13:40.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 73,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs [Read Only]",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCYAAAAEAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:15:54.763Z"
+              "WhenOpened": "2025-03-23T06:03:48.28Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AsmPrnContext.cs",
-              "DocumentMoniker": "D:\\.NET\\ResidenceHub\\Models\\AsmPrnContext.cs",
-              "RelativeDocumentMoniker": "Models\\AsmPrnContext.cs",
-              "ToolTip": "D:\\.NET\\ResidenceHub\\Models\\AsmPrnContext.cs",
-              "RelativeToolTip": "Models\\AsmPrnContext.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 72,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:14:38.827Z"
+              "WhenOpened": "2025-03-19T02:23:07.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ManageResidentsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ManageResidentsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Police\\ManageResidentsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ManageResidentsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Police\\ManageResidentsViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:37:45.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PoliceDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\PoliceDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Police\\PoliceDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\PoliceDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Police\\PoliceDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:31:53.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ManageHouseholdsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ManageHouseholdsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Police\\ManageHouseholdsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ManageHouseholdsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Police\\ManageHouseholdsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:32:26.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ApproveRequestsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ApproveRequestsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Police\\ApproveRequestsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ApproveRequestsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Police\\ApproveRequestsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:35:14.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ReportsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ReportsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Police\\ReportsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Police\\ReportsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Police\\ReportsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:37:11.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "NotificationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\NotificationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Citizen\\NotificationViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\NotificationViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Citizen\\NotificationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:30:42.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Citizen\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\RegistrationViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Citizen\\RegistrationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:30:12.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "PersonalInforViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\PersonalInforViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Citizen\\PersonalInforViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\PersonalInforViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Citizen\\PersonalInforViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:29:47.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CitizenDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\CitizenDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Citizen\\CitizenDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Citizen\\CitizenDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Citizen\\CitizenDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:29:21.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "RequestsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\RequestsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AreaLeader\\RequestsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\RequestsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AreaLeader\\RequestsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:18:38.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "HouseholdsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\HouseholdsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AreaLeader\\HouseholdsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\HouseholdsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AreaLeader\\HouseholdsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:18:23.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ResidentsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\ResidentsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AreaLeader\\ResidentsViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\ResidentsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AreaLeader\\ResidentsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:17:59.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "LeaderDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\LeaderDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AreaLeader\\LeaderDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\AreaLeader\\LeaderDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AreaLeader\\LeaderDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:17:41.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:16:59.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Base\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Base\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Base\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModels\\Base\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:16:17.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Base\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Base\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ViewModels\\Base\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\Base\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:16:00.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:44:35.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\DELL\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "ViewState": "AgIAAE4DAAAAAAAAAAAkwGADAABFAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T02:40:33.747Z",
+              "EditorCaption": " [Read Only]"
             }
           ]
         }

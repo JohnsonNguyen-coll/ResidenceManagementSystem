@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\.NET\ResidenceHub\obj\Debug\net8.0-windows\
+C:\Users\DELL\ResidenceManagementSystem\ResidenceHub\obj\Debug\net8.0-windows\
 ResidenceHub
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\.NET\ResidenceHub\App.xaml
-11407045341
+C:\Users\DELL\ResidenceManagementSystem\ResidenceHub\App.xaml
+30-83684371
 
-181182315943
+561941113079
 2441673578422
-MainWindow.xaml;
+GUI\Admin\AddUserDialog.xaml;GUI\Admin\AdminDashboard.xaml;GUI\Admin\ConfigurationView.xaml;GUI\Admin\SystemLogsView.xaml;GUI\Admin\UserManagementView.xaml;GUI\AreaLeader\ApprovalCommentDialog.xaml;GUI\AreaLeader\AreaLeaderDashboard.xaml;GUI\AreaLeader\HouseholdDetailsDialog.xaml;GUI\AreaLeader\HouseholdListView.xaml;GUI\AreaLeader\RequestVerificationView.xaml;GUI\AreaLeader\ResidentListView.xaml;GUI\AreaLeader\SendNotificationDialog.xaml;GUI\AreaLeader\SendNotificationView.xaml;GUI\Citizen\CitizenDashboard.xaml;GUI\Citizen\HouseholdTransferView.xaml;GUI\Citizen\NotificationView.xaml;GUI\Citizen\PersonalInfoView.xaml;GUI\Citizen\RegistrationRequestView.xaml;GUI\Common\LoginWindow.xaml;GUI\Common\RegisterAccountView.xaml;GUI\Police\AddHouseholdDialog.xaml;GUI\Police\AddResidentDialog.xaml;GUI\Police\EditHouseholdDialog.xaml;GUI\Police\HouseholdDetailsDialog.xaml;GUI\Police\HouseholdManagementView.xaml;GUI\Police\NotificationsView.xaml;GUI\Police\PoliceDashboard.xaml;GUI\Police\ReportsView.xaml;GUI\Police\RequestApprovalView.xaml;GUI\Police\ResidentManagementView.xaml;
 
-True
+False
 

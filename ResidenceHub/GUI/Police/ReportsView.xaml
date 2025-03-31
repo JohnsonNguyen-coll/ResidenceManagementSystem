@@ -1,0 +1,119 @@
+﻿<Page x:Class="ResidenceHub.GUI.Police.ReportsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Title="Reports">
+
+    <Grid Background="White" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="Reports and Statistics" FontSize="24" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <!-- Controls -->
+        <Grid Grid.Row="1" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,15,0">
+                <TextBlock Text="Report Type:" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+                <ComboBox x:Name="cmbReportType" Width="150" Height="30" VerticalContentAlignment="Center" SelectionChanged="cmbReportType_SelectionChanged">
+                    <ComboBoxItem Content="Resident Statistics" IsSelected="True"/>
+                    <ComboBoxItem Content="Household Statistics"/>
+                    <ComboBoxItem Content="Registration Statistics"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <Button x:Name="btnRefresh" Content="Refresh" Width="80" Height="30" 
+                        Background="#E0E0E0" BorderThickness="0" Margin="0,0,10,0" Click="btnRefresh_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button x:Name="btnExport" Content="Export" Width="80" Height="30" 
+                        Background="#C62828" Foreground="White" BorderThickness="0" Click="btnExport_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="3"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <!-- Summary Info -->
+        <Border Grid.Row="2" Background="#F5F5F5" Padding="15" Margin="0,0,0,15" BorderBrush="#E0E0E0" BorderThickness="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock x:Name="lblSummary1Title" Text="Total Residents" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="lblSummary1Value" Text="0" FontSize="24" FontWeight="Bold" Foreground="#C62828"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <TextBlock x:Name="lblSummary2Title" Text="Permanent Residents" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="lblSummary2Value" Text="0" FontSize="24" FontWeight="Bold" Foreground="#2E7D32"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2">
+                    <TextBlock x:Name="lblSummary3Title" Text="Temporary Residents" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="lblSummary3Value" Text="0" FontSize="24" FontWeight="Bold" Foreground="#1565C0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Detailed Data - Full Width with Auto Height -->
+        <DataGrid x:Name="dgReportData" Grid.Row="3" 
+                 AutoGenerateColumns="False" 
+                 IsReadOnly="True"
+                 Margin="0"
+                 BorderBrush="#E0E0E0" 
+                 BorderThickness="1"
+                 VerticalScrollBarVisibility="Auto"
+                 HorizontalScrollBarVisibility="Auto"
+                 Background="White"
+                 AlternatingRowBackground="#F5F5F5"
+                 RowBackground="White"
+                 CanUserResizeColumns="True"
+                 CanUserSortColumns="True"
+                 GridLinesVisibility="All"
+                 VerticalGridLinesBrush="#E0E0E0"
+                 HorizontalGridLinesBrush="#E0E0E0"
+                 HeadersVisibility="Column">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#EEEEEE"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="Padding" Value="8,5"/>
+                    <Setter Property="BorderBrush" Value="#CCCCCC"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,1"/>
+                </Style>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Padding" Value="8,5"/>
+                    <Setter Property="BorderBrush" Value="#E0E0E0"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,0"/>
+                </Style>
+            </DataGrid.Resources>
+        </DataGrid>
+    </Grid>
+</Page>

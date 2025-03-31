@@ -4508,11 +4508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET\\ResidenceHub\\ResidenceHub.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ResidenceHub.csproj",
       "projectName": "ResidenceHub",
-      "projectPath": "D:\\.NET\\ResidenceHub\\ResidenceHub.csproj",
+      "projectPath": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\ResidenceHub.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET\\ResidenceHub\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\ResidenceManagementSystem\\ResidenceHub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

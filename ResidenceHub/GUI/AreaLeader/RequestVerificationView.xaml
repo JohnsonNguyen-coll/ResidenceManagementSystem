@@ -1,0 +1,199 @@
+﻿<Page x:Class="ResidenceHub.GUI.AreaLeader.RequestVerificationView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Request Verification">
+
+    <Grid Background="White" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="Registration Request Verification" FontSize="24" FontWeight="Bold" Margin="0,0,0,15"/>
+
+        <!-- Filter Options -->
+        <Grid Grid.Row="1" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,15,0">
+                <TextBlock Text="Area:" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+                <TextBlock x:Name="lblArea" Text="Your Managed Area" VerticalAlignment="Center" FontWeight="Bold" Foreground="#1565C0"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="0,0,15,0">
+                <TextBlock Text="Status:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <ComboBox x:Name="cmbStatus" Width="120" Height="30" VerticalContentAlignment="Center" SelectionChanged="cmbStatus_SelectionChanged">
+                    <ComboBoxItem Content="All" IsSelected="True"/>
+                    <ComboBoxItem Content="Pending"/>
+                    <ComboBoxItem Content="Approved"/>
+                    <ComboBoxItem Content="Rejected"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="0,0,15,0">
+                <TextBlock Text="Type:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <ComboBox x:Name="cmbType" Width="120" Height="30" VerticalContentAlignment="Center" SelectionChanged="cmbType_SelectionChanged">
+                    <ComboBoxItem Content="All" IsSelected="True"/>
+                    <ComboBoxItem Content="Permanent"/>
+                    <ComboBoxItem Content="Temporary"/>
+                    <ComboBoxItem Content="TemporaryStay"/>
+                </ComboBox>
+            </StackPanel>
+
+            <Button Grid.Column="4" x:Name="btnRefresh" Content="Refresh" Width="80" Height="30" 
+                    Background="#1565C0" Foreground="White" BorderThickness="0" Click="btnRefresh_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="3"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+
+        <!-- Requests Table -->
+        <DataGrid x:Name="dgRequests" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" 
+                  Margin="0,0,0,15" SelectionMode="Single" SelectionChanged="dgRequests_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding RegistrationId}" Width="50"/>
+                <DataGridTextColumn Header="Resident" Binding="{Binding UserName}" Width="150"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding RegistrationType}" Width="100"/>
+                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="100"/>
+                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="100"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="80"/>
+                <DataGridTextColumn Header="Comments" Binding="{Binding Comments}" Width="*"/>
+                <DataGridTemplateColumn Header="Actions" Width="160">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Approve" Tag="{Binding RegistrationId}" Margin="0,0,5,0" Padding="5,2"
+                                        Click="btnApprove_Click" Background="#4CAF50" Foreground="White" BorderThickness="0"
+                                        Visibility="{Binding ApproveButtonVisibility}">
+                                    <Button.Resources>
+                                        <Style TargetType="Border">
+                                            <Setter Property="CornerRadius" Value="2"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                                <Button Content="Reject" Tag="{Binding RegistrationId}" Padding="5,2"
+                                        Click="btnReject_Click" Background="#F44336" Foreground="White" BorderThickness="0"
+                                        Visibility="{Binding RejectButtonVisibility}">
+                                    <Button.Resources>
+                                        <Style TargetType="Border">
+                                            <Setter Property="CornerRadius" Value="2"/>
+                                        </Style>
+                                    </Button.Resources>
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Details Panel -->
+        <Border Grid.Row="3" BorderBrush="#E0E0E0" BorderThickness="1" Padding="15" Background="#F5F5F5">
+            <Grid x:Name="detailsPanel">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Request Details" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="ID:" FontWeight="SemiBold" Margin="0,0,10,5"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="lblRequestId" Text="--" Margin="0,0,0,5"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Type:" FontWeight="SemiBold" Margin="0,0,10,5"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="lblRequestType" Text="--" Margin="0,0,0,5"/>
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Dates:" FontWeight="SemiBold" Margin="0,0,10,5"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" x:Name="lblRequestDates" Text="--" Margin="0,0,0,5"/>
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Status:" FontWeight="SemiBold" Margin="0,0,10,5"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1" x:Name="lblRequestStatus" Text="--" Margin="0,0,0,5"/>
+                    </Grid>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Resident Information" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Name:" FontWeight="SemiBold" Margin="0,0,10,5"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="lblResidentName" Text="--" Margin="0,0,0,5"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Email:" FontWeight="SemiBold" Margin="0,0,10,5"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="lblResidentEmail" Text="--" Margin="0,0,0,5"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Address:" FontWeight="SemiBold" Margin="0,32,10,64" Grid.RowSpan="2"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="lblResidentAddress" Text="--" Margin="0,32,0,64" TextWrapping="Wrap" Grid.RowSpan="2"/>
+
+                        <TextBlock Text="Citizen ID Image" FontWeight="Bold" Margin="-237,70,237,5" Grid.Row="1"/>
+                        <Border BorderThickness="1" BorderBrush="Gray" Width="255" Height="153" 
+                                 HorizontalAlignment="Left" VerticalAlignment="Center" Background="LightGray" Margin="-318,0,0,0" Grid.Row="2">
+                            <Image x:Name="imgCitizenID" Stretch="Uniform" Margin="-17,-5,-22,0"/>
+                        </Border>
+
+
+                        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                            <Button x:Name="btnApproveSelected" Content="Approve Request" Width="120" Height="30" 
+                                    Background="#4CAF50" Foreground="White" BorderThickness="0" Margin="0,0,10,0" Click="btnApproveSelected_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="3"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+
+                            <Button x:Name="btnRejectSelected" Content="Reject Request" Width="120" Height="30" 
+                                    Background="#F44336" Foreground="White" BorderThickness="0" Click="btnRejectSelected_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="3"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
+
